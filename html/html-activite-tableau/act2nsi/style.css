@@ -1,0 +1,23 @@
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td.aspect{
+    width: 62px;
+    height: 62px;
+    background-color: darkgrey;
+    text-align: center;
+}
+
+.bouton1{
+    margin-top: 35px;
+    margin-left: 460px;
+}
+.bouton2{
+    margin-left: 0;
+}
+
+td.rouge {
+    color: red;
+}
