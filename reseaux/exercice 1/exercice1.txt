@@ -1,0 +1,26 @@
+1) Les pings qui fonctionnent sont :
+11.11.1.28 avec 11.11.1.57 et
+11.11.2.28 avec 11.11.2.57 .
+
+2) Il faut mettre le même masque
+et avoir la même adresse réseau
+on peut alors modifier le masque
+des machines 11.11.1.28 et 11.11.1.57
+par 255.255.252.0
+
+3) voir fichier fls
+
+
+
+
+
+"""
+binaire 11.11.1.28 =
+8+2+1 =
+2^3 + 2^1 + 2^0 =
+00001011
+1 = 2^0 donc 00000001
+28 = 16 + 8 + 4 = 2^4 + 2^3 + 2^2
+donc = 00011100
+donc 00001011.00001011.00000001.00011100
+"""
