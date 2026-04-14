@@ -1,0 +1,39 @@
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ligneune:hover td{
+    background-color: red;
+}
+
+.lignedeux:hover td{
+    background-color: orange;
+}
+
+.lignetrois:hover td{
+    background-color: yellow;
+}
+
+.lignequatre:hover td{
+    background-color: green;
+}
+
+.lignecinq:hover td{
+    background-color: blue;
+}
+
+.lignesix:hover td{
+    background-color: indigo;
+}
+
+.lignesept:hover td{
+    background-color:rgb(128,0,128)
+}
+
+td.aspect{
+    width: 300px;
+    height: 85px;
+    background-color: darkgrey;
+}
+

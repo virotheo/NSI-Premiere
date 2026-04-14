@@ -1,0 +1,47 @@
+
+body{
+width:80%;
+margin:0 auto;}
+
+
+.colonneUne, .colonneDeux , .colonneTrois {
+width:300px;
+float:left;
+margin:10px;
+background-color:#B3FFF4;
+}
+
+h1 {
+color : #DAA520;}
+	
+.texte
+{
+    color : rgb(255, 255, 255);
+}
+ 
+.texte:hover
+{
+    color : rgb(0, 119, 255);
+}
+
+.colonneUne ul li:hover {
+    color: blue;
+}
+
+.colonneDeux ul li:hover {
+    color: rgb(255, 0, 0);
+}
+
+.colonneDeux h3 + ul li:hover {
+    color: rgb(255, 0, 0);
+}
+
+
+.colonneDeux h3:hover {
+    color: red;
+}
+
+
+.alignement{
+margin-top:500px;
+}
